@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="solfunmeme" version="4">
+  <OBJECT>
+    <ID name="solfunmeme" mc="Standard.Project" uid="22950e8c-3361-426c-99db-db0264174f36"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[solfunmeme]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="solfunmeme" mc="Standard.Package" uid="3c09cc63-a1fd-4b62-9b06-37c6c53b2be0"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="solfunmeme" mc="Infrastructure.DiagramSet" uid="eaf58dc6-1947-4ccb-a709-37921fc36caa"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

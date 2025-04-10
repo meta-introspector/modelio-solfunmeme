@@ -4,7 +4,7 @@
     <ID name="Sequence" mc="Standard.Class" uid="96f616a9-2d37-4085-9ad5-81ab6a70841c"/>
     <PID name="solfunmeme" mc="Standard.Package" uid="3c09cc63-a1fd-4b62-9b06-37c6c53b2be0"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">true</ATT>
+      <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">true</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

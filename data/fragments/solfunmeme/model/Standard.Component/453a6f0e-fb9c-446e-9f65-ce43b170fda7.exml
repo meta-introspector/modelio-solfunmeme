@@ -139,7 +139,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="agent" mc="Standard.AssociationEnd" uid="283e8e6a-6c41-4d8d-a3cd-1ed798041d9c"/>
+          <ID name="manager" mc="Standard.AssociationEnd" uid="283e8e6a-6c41-4d8d-a3cd-1ed798041d9c"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -152,7 +152,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[agent]]></ATT>
+            <ATT name="Name"><![CDATA[manager]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -179,7 +179,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="agent" mc="Standard.AssociationEnd" uid="283e8e6a-6c41-4d8d-a3cd-1ed798041d9c"/>
+                    <COMPID name="manager" mc="Standard.AssociationEnd" uid="283e8e6a-6c41-4d8d-a3cd-1ed798041d9c"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>

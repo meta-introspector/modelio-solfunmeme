@@ -13,6 +13,27 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="eec69bd7-8361-4e3a-8a0c-a50a3753ade2"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="@pupin_edv" mc="Standard.Instance" uid="13a6d965-b753-4c05-a432-c75797c890b5"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="James Michael DuPont" mc="Standard.Instance" uid="269da7db-5ff0-4dee-bae6-33ee0ef759d9"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Declared">
         <OBJECT>
           <ID name="A000045 Fibonnaci" mc="Standard.Instance" uid="cc6fb1ae-3f0e-4fc4-bb80-34e9598ffb55"/>
@@ -2888,6 +2909,23 @@
                       </DEPENDENCIES>
                     </OBJECT>
                   </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Standard.Abstraction" uid="9eb1ca88-ece2-4f9e-9f6c-8b60f97da528"/>
+                <ATTRIBUTES>
+                  <ATT name="Mapping"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="zeus" mc="Standard.Instance" uid="c7ed1d26-27ac-407c-9046-7f966dbcc8f5"/>
+                    </REFOBJ>
+                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
@@ -7446,6 +7484,23 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Standard.Abstraction" uid="46183499-c573-4c4d-bd77-256252f1b325"/>
+                <ATTRIBUTES>
+                  <ATT name="Mapping"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="zeus" mc="Standard.Instance" uid="c7ed1d26-27ac-407c-9046-7f966dbcc8f5"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
@@ -10347,7 +10402,22 @@
             <ATT name="Name"><![CDATA[dino]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Dependency" uid="346c36d9-66dc-4005-aa85-725a3dd3ec62"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <ID name="dino" mc="Standard.Class" uid="c763b020-9fca-4ee2-b551-331d329146e3"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="human" mc="Standard.Instance" uid="8eaab2c8-5924-4fa0-be83-f74794f14715"/>
@@ -10565,6 +10635,30 @@
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="sausage games" mc="Standard.Instance" uid="6c30ad34-cea7-4e5b-85f9-cee59f361728"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[sausage games]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="@pupin_edv" mc="Standard.Instance" uid="13a6d965-b753-4c05-a432-c75797c890b5"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[@pupin_edv]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Sequence" mc="Standard.Class" uid="96f616a9-2d37-4085-9ad5-81ab6a70841c"/>
@@ -10676,6 +10770,23 @@
         <COMPID name="dino" mc="Standard.Class" uid="c763b020-9fca-4ee2-b551-331d329146e3"/>
         <COMPID name="Genetic memory" mc="Standard.Class" uid="723831d6-2c4a-4985-8b5a-fa4c91f1a7d3"/>
         <COMPID name="Epigenetic memory" mc="Standard.Class" uid="e95cb5d7-f2ca-4716-8b9c-b049698e913d"/>
+        <COMPID name="ExternalDocument" mc="Standard.Class" uid="daebbe07-2b85-4291-8622-22883704c7b2"/>
+        <COMPID name="ModelComponent" mc="Standard.Class" uid="f57fb4da-f51e-4253-892c-d718cb22715b"/>
+        <COMPID name="invariant" mc="Standard.Class" uid="be6c8be0-3d7c-4f29-ad09-575c1626cc10"/>
+        <COMPID name="library" mc="Standard.Class" uid="45912d66-9c4c-4d75-adee-39f8c31746b7"/>
+        <COMPID name="precondition" mc="Standard.Class" uid="45db983c-626e-47da-83d3-ba4b80973730"/>
+        <COMPID name="postcondition" mc="Standard.Class" uid="7932edbb-47d4-4470-b73b-f28cbefd1589"/>
+        <COMPID name="system" mc="Standard.Class" uid="cad1e677-f582-4cb1-bd2f-ddfe900ad001"/>
+        <COMPID name="subsystem" mc="Standard.Class" uid="72c0b931-6207-4ebb-9f61-f37b2fcca8e7"/>
+        <COMPID name="scenario" mc="Standard.Class" uid="08b24470-db4c-4685-aa2f-9c44cb383159"/>
+        <COMPID name="metaclass" mc="Standard.Class" uid="604c9761-1b6d-406e-a986-fe3ba5e11a66"/>
+        <COMPID name="metamodel" mc="Standard.Class" uid="a4cf2d4e-49b1-4958-911f-71ff56bde909"/>
+        <COMPID name="design pattern" mc="Standard.Class" uid="70af0946-2de1-485a-9c65-2ea7bcb33e58"/>
+        <COMPID name="implementation" mc="Standard.Class" uid="9e1c8ce0-ceb9-4ab6-b000-61504ec5b681"/>
+        <COMPID name="file" mc="Standard.Class" uid="6173ea0a-45f0-48e0-88d8-a9ad09c0234b"/>
+        <COMPID name="directory" mc="Standard.Class" uid="d5a19e13-1583-44f7-b4c6-2719b00a76fe"/>
+        <COMPID name="Artifact" mc="Standard.Class" uid="b721982a-9685-4216-b7b7-cd16b52a744d"/>
+        <COMPID name="morphism" mc="Standard.Class" uid="bbd9ffb1-df7d-4c5a-90ca-4274b2857571"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="solfunmeme Class diagram" mc="Standard.ClassDiagram" uid="3ed630fc-a952-4110-999b-a0c58c7ec87b"/>

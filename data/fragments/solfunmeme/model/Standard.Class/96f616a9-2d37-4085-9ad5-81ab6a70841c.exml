@@ -4,12 +4,12 @@
     <ID name="Sequence" mc="Standard.Class" uid="96f616a9-2d37-4085-9ad5-81ab6a70841c"/>
     <PID name="solfunmeme" mc="Standard.Package" uid="3c09cc63-a1fd-4b62-9b06-37c6c53b2be0"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">false</ATT>
-      <ATT name="IsMain">false</ATT>
+      <ATT name="IsActive">true</ATT>
+      <ATT name="IsMain">true</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
-      <ATT name="IsRoot">false</ATT>
+      <ATT name="IsRoot">true</ATT>
       <ATT name="Visibility">Public</ATT>
       <ATT name="Name"><![CDATA[Sequence]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -77,7 +77,71 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="morphism" mc="Standard.AssociationEnd" uid="47410c9e-09c7-4a21-bd54-19298ffd08e6"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[morphism]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="morphism" mc="Standard.Class" uid="bbd9ffb1-df7d-4c5a-90ca-4274b2857571"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="Standard.AssociationEnd" uid="46edd0ff-ebe1-4100-b944-e7c296b5e8f0"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">AccesNone</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="morphism" mc="Standard.AssociationEnd" uid="47410c9e-09c7-4a21-bd54-19298ffd08e6"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Association" uid="399d355e-71dd-4ebc-a090-06311dabe989"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Standard.Association" uid="399d355e-71dd-4ebc-a090-06311dabe989"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="design pattern" mc="Infrastructure.Stereotype" uid="007006dc-0000-0139-0000-000000000000"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

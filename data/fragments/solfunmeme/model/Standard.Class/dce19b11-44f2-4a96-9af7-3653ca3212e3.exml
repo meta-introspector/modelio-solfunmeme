@@ -14,6 +14,34 @@
       <ATT name="Name"><![CDATA[goedel functor]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="f7bbae16-78d5-4aa3-8029-22822dd0b43b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="functor" mc="Standard.Class" uid="b385091f-5668-4d33-9a81-535ab8816d79"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.Abstraction" uid="0bc1e42c-a595-4296-ac34-7f2746cbbb4c"/>
+          <ATTRIBUTES>
+            <ATT name="Mapping"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="platonic functor" mc="Standard.Class" uid="0977833b-99ee-4d13-8968-4da5827bce7a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>

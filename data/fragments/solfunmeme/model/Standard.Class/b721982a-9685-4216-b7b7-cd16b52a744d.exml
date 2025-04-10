@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OEIS Resources" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Artifact" version="4">
   <OBJECT>
-    <ID name="OEIS Resources" mc="Standard.Class" uid="366d3445-2973-42cf-b75a-5bec6fc2f71b"/>
+    <ID name="Artifact" mc="Standard.Class" uid="b721982a-9685-4216-b7b7-cd16b52a744d"/>
     <PID name="solfunmeme" mc="Standard.Package" uid="3c09cc63-a1fd-4b62-9b06-37c6c53b2be0"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[OEIS Resources]]></ATT>
+      <ATT name="Name"><![CDATA[Artifact]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="oeis functor" mc="Standard.AssociationEnd" uid="0c4f459a-3711-4b1a-a093-9101ca7e1589"/>
+          <ID name="program" mc="Standard.AssociationEnd" uid="c3e2de54-2716-4f2f-8348-658227b2b233"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -30,16 +30,16 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[oeis functor]]></ATT>
+            <ATT name="Name"><![CDATA[program]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="oeis functor" mc="Standard.Class" uid="ce795bd3-4787-4df9-8444-64a2c2958dd5"/>
+              <ID name="program" mc="Standard.Class" uid="f99de791-82b9-4d56-95f6-314454c77c86"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="4d371524-2e83-48ab-8526-d27b5c1073f8"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="1a1870fd-2a0f-4aea-9624-708480b23749"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -57,11 +57,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="oeis functor" mc="Standard.AssociationEnd" uid="0c4f459a-3711-4b1a-a093-9101ca7e1589"/>
+                    <COMPID name="program" mc="Standard.AssociationEnd" uid="c3e2de54-2716-4f2f-8348-658227b2b233"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="0ac24dc8-8789-4605-b315-912a1136c06e"/>
+                      <ID name="" mc="Standard.Association" uid="677d7a5f-d4f0-49d0-92d2-ecfc7b97694f"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -73,23 +73,8 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="0ac24dc8-8789-4605-b315-912a1136c06e"/>
+              <COMPID name="" mc="Standard.Association" uid="677d7a5f-d4f0-49d0-92d2-ecfc7b97694f"/>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Parent">
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="d9844066-294c-46fd-8e74-8c49c2a31262"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Resource" mc="Standard.Class" uid="d38f996f-bc74-45b2-aaed-338f5e0e3d14"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

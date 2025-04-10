@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="openstreetmap" version="4">
+  <OBJECT>
+    <ID name="openstreetmap" mc="Standard.Component" uid="2886821e-c892-4f4d-a2a3-0bb442becebc"/>
+    <PID name="solfunmeme" mc="Standard.Package" uid="3c09cc63-a1fd-4b62-9b06-37c6c53b2be0"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[openstreetmap]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="way" mc="Standard.Class" uid="9aa550f6-1913-494d-abf1-790a8a4596b6"/>
+        <COMPID name="relationships" mc="Standard.Class" uid="df4a279f-1aa4-4dd3-aaea-52a2e6694ef4"/>
+        <COMPID name="nodes" mc="Standard.Class" uid="02fcf8ae-f61d-4e43-99d5-d0462bb9e4c1"/>
+        <COMPID name="tags" mc="Standard.Class" uid="16d93eb0-5522-47bb-b5b4-cebf0f4e8e46"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

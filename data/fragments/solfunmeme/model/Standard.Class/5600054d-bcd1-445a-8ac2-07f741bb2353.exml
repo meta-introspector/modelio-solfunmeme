@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Quality Function" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Meia" version="4">
   <OBJECT>
-    <ID name="Quality Function" mc="Standard.Class" uid="1352adb4-57e9-4b3a-8397-cc513acf7018"/>
+    <ID name="Meia" mc="Standard.Class" uid="5600054d-bcd1-445a-8ac2-07f741bb2353"/>
     <PID name="solfunmeme" mc="Standard.Package" uid="3c09cc63-a1fd-4b62-9b06-37c6c53b2be0"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Quality Function]]></ATT>
+      <ATT name="Name"><![CDATA[Meia]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

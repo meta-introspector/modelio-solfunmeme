@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="protiens" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="protein" version="4">
   <OBJECT>
-    <ID name="protiens" mc="Standard.Class" uid="d259b6ce-e7ef-4768-b103-0da2cfeef396"/>
+    <ID name="protein" mc="Standard.Class" uid="d259b6ce-e7ef-4768-b103-0da2cfeef396"/>
     <PID name="solfunmeme" mc="Standard.Package" uid="3c09cc63-a1fd-4b62-9b06-37c6c53b2be0"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[protiens]]></ATT>
+      <ATT name="Name"><![CDATA[protein]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
